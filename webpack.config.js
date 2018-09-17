@@ -1,9 +1,16 @@
 const path = require('path');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
-  entry: './src/js/myfile.js',
+  entry: {
+    myfile: ['./src/js/myfile.js', './src/js/myfile2.js'],
+    home: './src/js/home.js'
+  },
   output: {
-    filename: 'myfile.min.js',
+    filename: '[name].min.js',
     path: path.resolve(__dirname, 'dist/js')
-  }
+  },
+  plugins: [
+    new CleanWebpackPlugin(['dist'])
+  ]
 };

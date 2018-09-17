@@ -11,10 +11,14 @@ By default without any webpack configuration, webpack will look for a `src/index
 
 Command to build: `npx webpack`
 
-Step 2: With Configuration
---------------------------
+Step 2: With Basic Configuration
+--------------------------------
 A configuration file allows to map the source and destination files. In this step we're using webpack to minify a js file `myfile.js` from `src/js` directory to `dist/js/myfile.min.js`
 Build command:
 `npx webpack` (this will use the default config `webpack.config.js` if present)
 or
 `npx webpack --config webpack.config.js` (this is useful when our config file name is not the default one)
+
+Step 3: With Multple JS file
+----------------------------
+How to add seperate minified js files from different src files. Also shows how to concatenate seperate set of files into one.ss
