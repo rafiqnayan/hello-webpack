@@ -1,0 +1,11 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate static resource concatenation,minification,cache busting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafiqunnabi Nayan",
+  "license": "ISC"
+}
