@@ -22,3 +22,7 @@ or
 Step 3: With Multple JS file
 ----------------------------
 How to add seperate minified js files from different src files. Also shows how to concatenate seperate set of files into one.ss
+
+Step 4: Generate index.html
+---------------------------
+Adding the `html-webpack-plugin` will generate a `index.html` file inside the `dist` folder. The file will include a `script` tag for each entry point. 
