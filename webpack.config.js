@@ -7,7 +7,7 @@ module.exports = {
     home: './src/js/home.js'
   },
   output: {
-    filename: '[name].min.js',
+    filename: '[name].[contenthash]ss.min.js',
     path: path.resolve(__dirname, 'dist/js')
   },
   plugins: [
